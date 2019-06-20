@@ -1,11 +1,21 @@
 package com.taskWithShapes;
 
 public class Square extends Rectangle {
-    double side = 4.5;
-    @Override
+
+    private double side = 5;
+
+    public double getSide() {
+        return side;
+    }
+
+    public void setSide(double side) {
+        this.side = side;
+    }
+
+     @Override
     public double calculateArea() {
         double area = side*side;
-        System.out.println(area);
+        System.out.println("square: "+area);
         return area;
     }
 }

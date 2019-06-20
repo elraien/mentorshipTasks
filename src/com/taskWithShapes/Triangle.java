@@ -1,12 +1,18 @@
 package com.taskWithShapes;
 
 public class Triangle extends Shape {
-    double base = 5;
-    double height = 4.5;
+    private double base;
+    private double height;
+
+    public Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
+    }
+
     @Override
     public double calculateArea() {
         double area = (base*height)/2;
-        System.out.println(area);
+        System.out.println("triangle: "+area);
         return area;
     }
 }

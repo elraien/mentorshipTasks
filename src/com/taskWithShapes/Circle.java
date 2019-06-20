@@ -1,12 +1,22 @@
 package com.taskWithShapes;
 
 public class Circle extends Shape{
-    double radius = 3;
-    double pi = 3.14;
+    private double radius = 2.9;
+   
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+
+
     @Override
     public double calculateArea() {
-        double area = radius*radius*pi;
-        System.out.println(area);
+        double area = radius*radius*Math.PI;
+        System.out.println("circle: "+area);
         return area;
     }
 }
