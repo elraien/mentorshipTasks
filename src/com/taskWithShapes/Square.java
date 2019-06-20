@@ -1,4 +1,4 @@
 package com.taskWithShapes;
 
-public class Square {
+public class Square extends Rectangle {
 }
