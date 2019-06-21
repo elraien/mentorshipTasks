@@ -4,7 +4,7 @@ public class Application {
     public static void main(String[] args) {
         //calculate area of a rectangle
         Rectangle rec = new Rectangle();
-        rec.setSide(7);
+        rec.setSide2(7);
         rec.setSide1(5.8);
         rec.calculateArea();
 
@@ -22,6 +22,8 @@ public class Application {
         Triangle tr = new Triangle();
         tr.setHeight(2.4);
         tr.setSide(5.6);
+        tr.setSide1(3.9);
+        tr.setSide2(2.3);
         tr.calculateArea();
     }
 }
