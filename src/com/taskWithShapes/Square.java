@@ -1,8 +1,8 @@
 package com.taskWithShapes;
 
-public class Square extends Rectangle {
+public class Square extends Shape {
 
-    private double side = 5;
+    private double side;
 
     public double getSide() {
         return side;

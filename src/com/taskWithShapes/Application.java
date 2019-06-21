@@ -3,12 +3,14 @@ package com.taskWithShapes;
 public class Application {
     public static void main(String[] args) {
         //calculate area of a rectangle
-        Rectangle rec = new Rectangle(2.3, 5);
+        Rectangle rec = new Rectangle();
+        rec.setSide(7);
+        rec.setSide1(5.8);
         rec.calculateArea();
 
         //calculate area of a square
         Square sq = new Square();
-        sq.setSide(12);
+        sq.setSide(17);
         sq.calculateArea();
 
         //calculate area of a circle
@@ -17,7 +19,9 @@ public class Application {
         cir.calculateArea();
 
         //calculate area of a triangle
-        Triangle tr = new Triangle(2.8, 1.6);
+        Triangle tr = new Triangle();
+        tr.setHeight(2.4);
+        tr.setSide(5.6);
         tr.calculateArea();
     }
 }

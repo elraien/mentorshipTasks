@@ -1,20 +1,32 @@
 package com.taskWithShapes;
 
-public class Rectangle extends Shape {
-    private double sideA;
-    private double sideB;
+public class Rectangle extends Square {
 
-    public Rectangle() {
+    private double side;
+    private double side1;
+
+
+    @Override
+    public double getSide() {
+        return side;
     }
 
-    public Rectangle(double sideA, double sideB) {
-        this.sideA = sideA;
-        this.sideB = sideB;
+    @Override
+    public void setSide(double side) {
+        this.side = side;
+    }
+
+    public double getSide1() {
+        return side1;
+    }
+
+    public void setSide1(double side1) {
+        this.side1 = side1;
     }
 
     @Override
     public double calculateArea() {
-        double area = sideA*sideB;
+        double area = side*side1;
         System.out.println("rectangle: "+area);
         return area;
     }
