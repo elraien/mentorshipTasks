@@ -1,6 +1,10 @@
-package com.taskWithKitchen;
+package com.taskWithKitchen.appliances;
+
+import com.taskWithKitchen.Cookable;
 
 public class GasCooker extends KitchenAppliance implements Cookable {
+
+
     @Override
     public void switchOn() {
         System.out.println("Gas Cooker is now switched on");

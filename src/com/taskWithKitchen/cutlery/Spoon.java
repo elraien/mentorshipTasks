@@ -1,4 +1,4 @@
-package com.taskWithKitchen;
+package com.taskWithKitchen.cutlery;
 
 public class Spoon extends Cutlery {
     @Override

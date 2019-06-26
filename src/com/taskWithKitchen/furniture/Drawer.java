@@ -1,4 +1,4 @@
-package com.taskWithKitchen;
+package com.taskWithKitchen.furniture;
 
 public class Drawer extends Furniture {
     @Override

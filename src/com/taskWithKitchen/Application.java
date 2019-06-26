@@ -1,5 +1,8 @@
 package com.taskWithKitchen;
 
+import com.taskWithKitchen.appliances.Oven;
+import com.taskWithKitchen.furniture.Drawer;
+
 public class Application {
     public static void main(String[] args) {
         Drawer dr = new Drawer();

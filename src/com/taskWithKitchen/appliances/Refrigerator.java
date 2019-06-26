@@ -1,4 +1,6 @@
-package com.taskWithKitchen;
+package com.taskWithKitchen.appliances;
+
+import com.taskWithKitchen.Openable;
 
 public class Refrigerator extends KitchenAppliance implements Openable {
     @Override

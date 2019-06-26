@@ -1,6 +1,9 @@
-package com.taskWithKitchen;
+package com.taskWithKitchen.appliances;
 
-public class Oven extends KitchenAppliance implements Openable, Cookable{
+import com.taskWithKitchen.Cookable;
+import com.taskWithKitchen.Openable;
+
+public class Oven extends KitchenAppliance implements Openable, Cookable {
     @Override
     public void switchOn() {
         System.out.println("Oven is now switched on");

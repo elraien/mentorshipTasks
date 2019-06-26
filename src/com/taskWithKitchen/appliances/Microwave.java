@@ -1,6 +1,9 @@
-package com.taskWithKitchen;
+package com.taskWithKitchen.appliances;
 
-public class Microwave extends KitchenAppliance implements Openable, Cookable{
+import com.taskWithKitchen.Cookable;
+import com.taskWithKitchen.Openable;
+
+public class Microwave extends KitchenAppliance implements Openable, Cookable {
     @Override
     public void switchOn() {
         System.out.println("Microwave is now switched on");

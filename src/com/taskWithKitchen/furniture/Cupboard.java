@@ -1,6 +1,8 @@
-package com.taskWithKitchen;
+package com.taskWithKitchen.furniture;
 
 public class Cupboard extends Furniture {
+
+
     @Override
     public void close() {
 
